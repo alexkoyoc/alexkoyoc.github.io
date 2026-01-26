@@ -23,6 +23,4 @@ This site is where I keep my research projects, notes/handouts, and materials fo
 
 ## Materials
 - **CV:** /files/CV.pdf
-- **Handouts & notes:** (link these once you add pages)
-- **Contact:** (email or a contact page)
 ****
