@@ -18,8 +18,8 @@ This site is where I keep my research projects, notes/handouts, and materials fo
 - Spanish heritage grammar (TAM, pronouns, cue use)
 
 ## Current projects
-- **Project A:** (1–2 lines on what you’re working on)
-- **Project B:** (1–2 lines)
+- **LING 197:** Looking at A movement and A Bar movement in Dinka
+- **LING 198A:** looking at pronoun distribution in Hertiage Spanish Speakers
 
 ## Materials
 - **CV:** /files/CV.pdf
