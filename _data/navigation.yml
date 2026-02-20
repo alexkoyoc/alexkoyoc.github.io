@@ -10,7 +10,7 @@
 main:
 
   - title: "CV"
-    url: CV.pdf
+    url: /files/CV.pdf
     
   # - title: "About Me"
   #  url: /about-me/
