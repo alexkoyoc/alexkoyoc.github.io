@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Alex Koyoc"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Alex Koyoc"
 description              : &description "Syntax, bilingualism, language processing, and heritage language acquisition"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "LookUp.jpg"
   name             : "Alex Koyoc"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "Undergraduate at UCLA interested in formal syntax, bilingualism, language processing/acquisition, and heritage speakers."
