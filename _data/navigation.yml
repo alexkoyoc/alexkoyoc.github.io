@@ -12,7 +12,7 @@ main:
   #  url: /about-me/
 
    - title: "CV"
-    url: /files/Alexander Koyoc - Curriculum Vitae.pdf
+    url: CV.pdf
     
   # - title: "Publications"
   #  url: /publications/
