@@ -10,3 +10,5 @@ redirect_from:
 Hi, I’m an undergraduate UCLA Linguistics student interested in Psycholinguistics.   
 
 I am interested in **sentence processing, syntax/semantics, bilingualism, and the cognition of linguistic representations**. Currently, I am pursuing my B.A. in Linguistics and Psychology, with the intent to pursue a Ph.D in Linguistics.
+
+**Contact:** akoyoc@ucla.edu
