@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "LookUp.JPG"
-  name             : "Alex Koyoc"
+  name             : # "Alex Koyoc"
   pronouns         : # "He/Him" # example: "she/her"  
   bio              : # "Undergraduate at UCLA interested in formal syntax, bilingualism, language processing/acquisition, and heritage speakers."
   location         : # "Los Angeles, CA"
