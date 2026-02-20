@@ -54,9 +54,6 @@
     font-size: $type-size-6;
     line-height: 1.5;
   }
-    img {
-  width: 250%;
-  }
 }
 
 .sidebar__right {
@@ -140,15 +137,14 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
+  display: block;
+  width: 100%;
   // set width only, for non-square avatars
   // height: 36px;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
   }
 
@@ -160,6 +156,14 @@
       padding: 5px;
     }
   }
+}
+
+.sidebar .author__avatar img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .author__content {
