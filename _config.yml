@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "LookUp.JPG"
   name             : "Alex Koyoc"
-  pronouns         : "He/Him" # example: "she/her"  
-  bio              : "Undergraduate at UCLA interested in formal syntax, bilingualism, language processing/acquisition, and heritage speakers."
-  location         : "Los Angeles, CA"
-  employer         : "University of California, Los Angeles"
+  pronouns         : # "He/Him" # example: "she/her"  
+  bio              : # "Undergraduate at UCLA interested in formal syntax, bilingualism, language processing/acquisition, and heritage speakers."
+  location         : # "Los Angeles, CA"
+  employer         : # "University of California, Los Angeles"
   uri              : # URL
-  email            : "akoyoc@ucla.edu" 
+  email            : # "akoyoc@ucla.edu" 
 
   # Academic websites
   academia         : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "alexkoyoc" # Username
+  linkedin         : # "alexkoyoc" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
