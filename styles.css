@@ -206,8 +206,8 @@ body {
 
 .research-layout {
    display: grid;
-   grid-template-columns: minmax(0, 1.8fr) minmax(240px, 0.8fr);
-   gap: 50px;
+   grid-template-columns: minmax(0, 1fr) minmax(420px, 1.15fr);
+   gap: 40px;
    align-items: start;
 }
 
@@ -218,13 +218,16 @@ body {
 .research-details h3 {
    margin-top: 0;
    margin-bottom: 22px;
+   font-family: "Libre Baskerville", serif;
    font-size: 19px;
-   line-height: 1.35;
+   line-height: 1.4;
+   font-weight: 700;
 }
 
 .research-details p {
    margin-top: 0;
    margin-bottom: 16px;
+   font-family: "Lexend", sans-serif;
    font-size: 13px;
    line-height: 1.55;
 }
@@ -248,43 +251,20 @@ body {
    text-decoration: none;
 }
 
-.thesis-file {
-   padding: 22px;
+.thesis-preview {
+   width: 100%;
+   height: 720px;
    border: 1px solid #d8c7a3;
    border-radius: 10px;
+   overflow: hidden;
    background-color: rgba(255, 255, 255, 0.35);
 }
 
-.thesis-file h3 {
-   margin-top: 0;
-   margin-bottom: 10px;
-   font-size: 17px;
-}
-
-.thesis-file p {
-   margin-top: 0;
-   margin-bottom: 18px;
-   font-size: 13px;
-   line-height: 1.55;
-}
-
-.pdf-button,
-.pdf-button:visited {
-   display: inline-block;
-   padding: 10px 14px;
-   color: black;
-   border: 1px solid #8a7a63;
-   border-radius: 6px;
-   background-color: #eee7dc;
-   text-decoration: none;
-   font-size: 13px;
-   font-weight: 600;
-}
-
-.pdf-button:hover {
-   color: black;
-   background-color: #d8c7a3;
-   text-decoration: none;
+.thesis-preview iframe {
+   display: block;
+   width: 100%;
+   height: 100%;
+   border: none;
 }
 
 
