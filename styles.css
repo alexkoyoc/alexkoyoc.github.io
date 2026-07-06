@@ -2,25 +2,23 @@
    General Page Styles
 
    By: Alexander Koyoc
-   Last Updated: May 9, 2026
-
+   Last Updated: July 2026
 ========================= */
 
-
 * {
-	box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 body {
-	color: black;
-	font-family: "Lexend", sans-serif;
-	margin: 40px 30px;
-	background-color: #f8f5f0;
+   color: black;
+   font-family: "Lexend", sans-serif;
+   margin: 40px 30px;
+   background-color: #f8f5f0;
 }
 
 .content {
-	max-width: 1000px;
-	margin: 0 auto;
+   max-width: 1000px;
+   margin: 0 auto;
 }
 
 ::selection {
@@ -30,7 +28,7 @@ body {
 
 
 /* =========================
-    Header
+   Header
 ========================= */
 
 .site-header {
@@ -49,6 +47,7 @@ body {
    text-transform: uppercase;
    color: #6f6a5f;
 }
+
 .banner h1 {
    margin: 0;
    font-family: "Libre Baskerville", serif;
@@ -65,8 +64,9 @@ body {
    text-decoration: underline;
 }
 
+
 /* =========================
-    Navigation
+   Navigation
 ========================= */
 
 .site-nav ul {
@@ -92,26 +92,27 @@ body {
    text-decoration: none;
 }
 
+
 /* =========================
-   Layout
+   Homepage Layout
 ========================= */
 
 .home-layout {
    display: flex;
    gap: 35px;
    align-items: stretch;
-
    padding: 20px;
    border: 1px solid #d8c7a3;
    border-radius: 14px;
    background-color: rgba(255, 255, 255, 0.35);
 }
 
+
 /* =========================
    Main Image
 ========================= */
 
-..main-image {
+.main-image {
    flex-shrink: 0;
    width: 400px;
 }
@@ -146,6 +147,7 @@ body {
    color: #6f6a5f;
 }
 
+
 /* =========================
    Page Titles
 ========================= */
@@ -153,7 +155,7 @@ body {
 .page-title h2 {
    margin-top: 0;
    margin-bottom: 30px;
-   font-family: "Manrope", sans-serif;
+   font-family: "Lexend", sans-serif;
    font-size: 22px;
    font-weight: 700;
 }
@@ -197,8 +199,97 @@ body {
    border-radius: 6px;
 }
 
+
 /* =========================
-   Links
+   Research Page
+========================= */
+
+.research-layout {
+   display: grid;
+   grid-template-columns: minmax(0, 1.8fr) minmax(240px, 0.8fr);
+   gap: 50px;
+   align-items: start;
+}
+
+.research-details {
+   max-width: none;
+}
+
+.research-details h3 {
+   margin-top: 0;
+   margin-bottom: 22px;
+   font-size: 19px;
+   line-height: 1.35;
+}
+
+.research-details p {
+   margin-top: 0;
+   margin-bottom: 16px;
+   font-size: 13px;
+   line-height: 1.55;
+}
+
+.research-details strong {
+   color: #6f6a5f;
+}
+
+.project-type {
+   margin-bottom: 22px;
+}
+
+.research-details a,
+.research-details a:visited {
+   color: #6f6a5f;
+}
+
+.research-details a:hover {
+   color: black;
+   background-color: #d8c7a3;
+   text-decoration: none;
+}
+
+.thesis-file {
+   padding: 22px;
+   border: 1px solid #d8c7a3;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.35);
+}
+
+.thesis-file h3 {
+   margin-top: 0;
+   margin-bottom: 10px;
+   font-size: 17px;
+}
+
+.thesis-file p {
+   margin-top: 0;
+   margin-bottom: 18px;
+   font-size: 13px;
+   line-height: 1.55;
+}
+
+.pdf-button,
+.pdf-button:visited {
+   display: inline-block;
+   padding: 10px 14px;
+   color: black;
+   border: 1px solid #8a7a63;
+   border-radius: 6px;
+   background-color: #eee7dc;
+   text-decoration: none;
+   font-size: 13px;
+   font-weight: 600;
+}
+
+.pdf-button:hover {
+   color: black;
+   background-color: #d8c7a3;
+   text-decoration: none;
+}
+
+
+/* =========================
+   General Links
 ========================= */
 
 .info a,
@@ -212,16 +303,6 @@ body {
    text-decoration: none;
 }
 
-/* =========================
-   Footer
-========================= */
-
-footer {
-   max-width: 900px;
-   margin: 60px auto 0;
-   font-size: 13px;
-   text-align: right;
-}
 
 /* =========================
    Mobile Layout
@@ -299,9 +380,16 @@ footer {
       max-width: 100%;
    }
 
-   footer {
+   .research-layout {
+      grid-template-columns: 1fr;
+      gap: 30px;
+   }
+
+   .research-details {
       max-width: 100%;
-      text-align: left;
-      margin-top: 40px;
+   }
+
+   .thesis-file {
+      width: 100%;
    }
 }
