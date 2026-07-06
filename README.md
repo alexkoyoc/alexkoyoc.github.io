@@ -1,15 +1,26 @@
-# Personal Website
+# Alexander Koyoc — Personal Academic Website
 
-This repository contains the source code for my personal academic website.
+This repository contains the source code for the personal academic website of **Alexander Koyoc**, a UCLA graduate in Linguistics and Psychology.
 
-The site includes information about me, my academic background, research interests, contact information, and CV. It is built with HTML and CSS as a way to practice web development while creating a central place for my academic and professional materials.
+The website includes information about my academic background, research experience, current projects, research interests, curriculum vitae, and contact information. It was built with HTML and CSS as both a web development project and a central location for my academic and professional materials.
+
+## Research Interests
+
+- Psycholinguistics
+- Formal semantics
+- Sentence processing
+- Anaphora and cataphora
+- Degree semantics
+- Spanish linguistics
+- Bilingualism
+- Linguistic fieldwork
 
 ## Pages
 
-- `index.html` — Homepage with a short academic bio and research overview
-- `about-me.html` — Personal background and interests
-- `research.html` — Current and developing research projects
-- `contact.html` — Contact information
+- `index.html` — Homepage with an academic bio and research overview
+- `about-me.html` — Academic background and personal interests
+- `research.html` — Completed, current, and developing research projects
+- `contact.html` — Professional contact information
 - `AKCV.pdf` — Curriculum vitae
 - `styles.css` — Main stylesheet for the website
 
@@ -21,10 +32,11 @@ The site includes information about me, my academic background, research interes
 
 ## Author
 
-Alexander Koyoc  
-Undergraduate student in Linguistics and Psychology  
-University of California, Los Angeles
+**Alexander Koyoc**  
+B.A. in Linguistics and Psychology  
+University of California, Los Angeles  
+College Honors and Departmental Honors
 
 ## Last Updated
 
-May 9, 2026
+July 2026
